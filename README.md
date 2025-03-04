@@ -13,8 +13,11 @@ A fast and efficient Bash-based port scanner that leverages `nmap` for scanning 
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/fast-port-scanner.git  
-Make the script executable: {chmod +x port_scanner_nmap.sh} 
-Run the script:{./port_scanner_nmap.sh <target_ip_or_website> [<start_port> <end_port>] }
-Example:./port_scanner_nmap.sh example.com
+ 
+ Make the script executable: {chmod +x port_scanner_nmap.sh} 
+ 
+ Run the script:{./port_scanner_nmap.sh <target_ip_or_website> [<start_port> <end_port>] }          
+ 
+ Example:./port_scanner_nmap.sh example.com
         ./port_scanner_nmap.sh 192.168.1.1 80 100 
         
